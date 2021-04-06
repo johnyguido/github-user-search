@@ -1,0 +1,32 @@
+.home-title {
+    margin: 50px 0px 24px 50px;
+    width: 550px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.8rem;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #062847;
+ }
+ 
+ .home-text {
+    margin: 0 0 50px 50px;
+    width: 680px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.0rem;
+    line-height: 36px;
+    color: #5A6774;
+ }
+ 
+ .email {
+    color: #1890FF;
+ }
+ 
+ .btn {
+    margin-left: 50px;
+ }
