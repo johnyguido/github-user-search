@@ -1,25 +1,32 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Button from '../../core/components/Button';
 import './styles.css'
 
-const Home = () => (
-      <div>
-            <h2 className="home-title">
-                  Desafio do Capítulo 3, Bootcamp DevSuperior
-            </h2>
-            <p className="home-text">
-                  Bem-vindos ao desafio do capítulo 3 do Bootcamp DevSuperior. <br />
-                  Favor observar as instruções passadas no capítulo sobre a elaboração deste projeto. <br />
-                  Este design foi adaptado a partir de Ant Design System for Figma, de <br />
-                  Mateusz Wierzbicki: <span className="email">antforfigma@gmail.com</span>
-            </p>
-            <NavLink to="/search" exact>
-                  <div className="btn">
-                        <Button text="Começar" />
+const Home = () => {
+      return (
+            <>
+                  <div className="container">
+                        <h1 className="title-container">
+                              Desafio do Capítulo 3, <br />
+                              Bootcamp DevSuperior
+                        </h1>
+                        <p className="text-container">
+                              Bem-vindos ao desafio do capítulo 3 do Bootcamp DevSuperior. <br />
+                              <br />
+                              Favor observar as instruções passadas no capítulo sobre a <br />
+                              elaboração deste projeto.<br />
+                              <br />
+                              Este design foi adaptado a partir de Ant Design System for Figma, <br />
+                              de Mateusz Wierzbicki:
+                              <a className="link" href="mailto:antforfigma@gmail.com"> antforfigma@gmail.com</a> <br />
+                        </p>
+                        <Link to="/search">                             
+                              <Button text='Começar'></Button>
+                        </Link>
                   </div>
-            </NavLink>
-      </div>
-)
+
+            </>
+      )
+}
 
 export default Home;

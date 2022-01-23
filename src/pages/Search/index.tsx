@@ -66,7 +66,7 @@ const Search = () => {
                            />
                            <div className="user-data">
                               <div className="user-stats">
-                                 <span>Repertorios Publicos: {userData.public_repos}</span>
+                                 <span>Repositórios Públicos: {userData.public_repos}</span>
                                  <span>Seguidores: {userData.followers}</span>
                                  <span>Seguindo: {userData.following}</span>
                               </div>

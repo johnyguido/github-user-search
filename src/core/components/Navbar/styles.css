@@ -9,3 +9,19 @@
     text-decoration: none;
     color: #fff;
  }
+
+ 
+.header-container {
+   background: #1890FF;
+   height: 60px;
+   display: flex;
+   align-items: center;
+}
+
+.header-title {
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 32px;
+   color: #FFFFFF;
+   padding-left: 40px;
+}
